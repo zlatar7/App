@@ -1,17 +1,15 @@
 import { StyleSheet } from 'react-native';
 
-import { theme } from '../../constants';
-
 export const styles = StyleSheet.create({
   container: {
-    height: 90,
-    backgroundColor: theme.colors.primary,
-    marginTop: 15,
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#fff',
   },
   title: {
     fontSize: 20,
-    color: theme.colors.white,
+    fontFamily: 'Rubik-Bold',
+    marginBottom: 50,
   },
 });
