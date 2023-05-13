@@ -4,9 +4,9 @@ import { theme } from '../../constants';
 
 export const styles = StyleSheet.create({
   container: {
-    height: 90,
+    height: 70,
     backgroundColor: theme.colors.primary,
-    marginTop: 15,
+    marginTop: 20,
     justifyContent: 'center',
     alignItems: 'center',
   },

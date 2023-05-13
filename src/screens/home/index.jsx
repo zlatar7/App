@@ -10,7 +10,7 @@ const Home = ({ navigation }) => {
     <View>
       <Header title="StockeAR" />
       <View style={styles.container}>
-        <Text style={styles.title}>Home</Text>
+        <Text style={styles.title}>Home Screen</Text>
         <View style={styles.buttonContainer}>
           <Button
             title="Go to Products"
