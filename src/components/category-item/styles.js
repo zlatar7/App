@@ -3,12 +3,16 @@ import { StyleSheet } from 'react-native';
 import { theme } from '../../constants';
 
 export const styles = StyleSheet.create({
-  container: {
+  view: {
     flex: 1,
     height: 180,
+  },
+  container: {
+    flex: 1,
+    height: 160,
     borderRadius: 10,
-    marginHorizontal: 20,
-    marginVertical: 10,
+    marginHorizontal: 35,
+    marginVertical: 30,
   },
   containerTouchable: {
     flex: 1,
@@ -29,5 +33,9 @@ export const styles = StyleSheet.create({
     fontSize: 17,
     fontFamily: 'Rubik-Regular',
     color: theme.colors.text,
+  },
+  image: {
+    flex: 1,
+    justifyContent: 'center',
   },
 });

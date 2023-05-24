@@ -25,7 +25,7 @@ const TabsNavigator = () => {
   }, [tabIconAnimation]);
   return (
     <BottomTab.Navigator
-      initialRouteName="ShopTab"
+      initialRouteName="Menu"
       screenOptions={{
         headerShown: false,
         tabBarLabelStyle: {

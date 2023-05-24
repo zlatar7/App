@@ -3,11 +3,10 @@ export const PRODUCTS = [
     id: 1,
     category: 1,
     name: 'Zapatillas deportivas',
-    price: 19.5,
-    description: 'Zapatillas deportivas marca Nike',
-    size: 'US 11.5',
-    image:
-      'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+    price: 13.9,
+    description: 'Zapatillas deportivas de hombre negras marca South',
+    size: 'ARG 42',
+    image: 'https://drive.google.com/file/d/17YueEN6Lsni8LhD1LQg-sRdo_w-Q3Nes/view?usp=drive_link',
   },
   {
     id: 2,
@@ -16,8 +15,7 @@ export const PRODUCTS = [
     price: 9.9,
     description: 'Zapatillas de cuero marca Stone',
     size: 'US 9',
-    image:
-      'https://images.unsplash.com/photo-1616174900332-1264408cf779?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+    image: 'https://http2.mlstatic.com/D_NQ_NP_769546-MLA41503724450_042020-O.jpg',
   },
   {
     id: 3,
@@ -26,8 +24,7 @@ export const PRODUCTS = [
     price: 21.9,
     description: 'Campera de abrigo rellena de plumas, liviana',
     size: 'Extra Large',
-    image:
-      'https://images.unsplash.com/photo-1679224105686-af8294e7e94d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80',
+    image: 'https://drive.google.com/file/d/17LwAphK5mKQpE-glHGiIpLq0UzeG4boR/view?usp=drive_link',
   },
   {
     id: 4,
@@ -36,18 +33,16 @@ export const PRODUCTS = [
     price: 29.9,
     description: 'Campera larga abrigada con piel interior, pesada',
     size: 'Extra Large',
-    image:
-      'https://images.unsplash.com/photo-1486887396153-fa416526c108?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+    image: 'https://drive.google.com/file/d/16swAIcBrD4WpJg8fqMLTU02QUp523E6Y/view?usp=drive_link',
   },
   {
     id: 5,
     category: 3,
     name: 'Jean Azul Oscuro',
     price: 12.5,
-    description: 'Jean de hombre azul oscuro semi-chupin',
+    description: 'Jean de mujer azul oscuro semi-chupin',
     size: '46',
-    image:
-      'https://images.unsplash.com/photo-1537200275355-4f0c0714f777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+    image: 'https://drive.google.com/file/d/18ihVSGnUADYDFDRiPAmHv4Lqyw4vReX2/view?usp=drive_link',
   },
   {
     id: 6,
@@ -57,17 +52,17 @@ export const PRODUCTS = [
     description: 'Babucha de algodon de mujer con frisa',
     size: 'Medium',
     image:
-      'https://images.unsplash.com/photo-1504400739660-22ebeb14f00a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+      'https://d3ugyf2ht6aenh.cloudfront.net/stores/001/994/708/products/f6128200-64a1-4921-98d8-6f4f6fcb8d19-37d8996abf20f7b0eb16827674205595-640-0.webp',
   },
   {
     id: 7,
     category: 4,
     name: 'Soquetes combinados',
     price: 1,
-    description: 'Paquete de 3 pares de soquetes (blanco, negro, azul)',
+    description: 'Paquete de 3 pares de soquetes (blanco, negro, gris)',
     size: 'Large',
     image:
-      'https://images.unsplash.com/photo-1603279126476-93ce8278312c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2VVBD-4JH9xUGLKNwf1do4_1ilAJwHaSQA&usqp=CAU',
   },
   {
     id: 8,
@@ -86,8 +81,7 @@ export const PRODUCTS = [
     price: 1.9,
     description: 'Remerea estampada de algodon de hombre',
     size: 'Doble Extra Large',
-    image:
-      'https://images.unsplash.com/photo-1625938145744-e380515399bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1946&q=80',
+    image: 'https://http2.mlstatic.com/D_NQ_NP_998387-MLA47747959150_102021-W.jpg',
   },
   {
     id: 10,
@@ -97,6 +91,15 @@ export const PRODUCTS = [
     description: 'Camisa manga largas de lino de mujer',
     size: 'Small',
     image:
-      'https://images.unsplash.com/photo-1676037150300-8cc973250e65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+      'https://static.massimodutti.net/3/photos/2023/V/0/1/p/5122/650/403/5122650403_1_1_3.jpg?t=1683712951691',
+  },
+  {
+    id: 11,
+    category: 3,
+    name: 'Jean azul claro',
+    price: 11.5,
+    description: 'Jean azul claro de mujer ancho',
+    size: '42',
+    image: 'https://drive.google.com/file/d/19ooTH19-wJ2YddYNk1xk-8HS65RsSORq/view?usp=drive_link',
   },
 ];

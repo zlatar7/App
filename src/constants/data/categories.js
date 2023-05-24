@@ -2,31 +2,31 @@ export const CATEGORIES = [
   {
     id: 1,
     name: 'Calzado',
-    color: '#F4E9CD',
+    color: '#fffbf3',
   },
   {
     id: 2,
     name: 'Abrigo',
-    color: '#A9C6C3',
+    color: '#f6ee9e',
   },
   {
     id: 3,
     name: 'Pantalones',
-    color: '#6BAAB3',
+    color: '#daeb9a',
   },
   {
     id: 4,
     name: 'Accesorios',
-    color: '#68C0F3',
+    color: '#1dc38c',
   },
   {
     id: 5,
     name: 'Remeras',
-    color: '#E9D39B',
+    color: '#17a0ab',
   },
   {
     id: 6,
     name: 'Camisas',
-    color: '#44803F',
+    color: '#2097d8',
   },
 ];
