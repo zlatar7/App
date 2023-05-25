@@ -8,11 +8,11 @@ const CartItem = ({ item, onRemove }) => {
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
-        <Text style={styles.header}>{item.title}</Text>
+        <Text style={styles.header}>{item.name}</Text>
       </View>
       <View style={styles.bodyContainer}>
         <View style={styles.content}>
-          <Text style={styles.quantity}>qty: {item.quantity}</Text>
+          <Text style={styles.quantity}>quantity: {item.quantity}</Text>
           <Text style={styles.price}>USD {item.price}</Text>
         </View>
         <TouchableOpacity onPress={() => onRemove(item.id)}>

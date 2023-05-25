@@ -23,7 +23,7 @@ export const CART = [
     title: 'Zapatillas deportivas',
     description: 'Zapatillas trekking de mujer violetas marca I-Run',
     size: 'ARG 38',
-    price: 15.0,
+    price: 15,
     quantity: 2,
   },
 ];
