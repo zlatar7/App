@@ -11,12 +11,13 @@ const ShopNavigator = () => {
       initialRouteName="Categories"
       screenOptions={{
         headerStyle: {
-          backgroundColor: theme.colors.primary,
+          backgroundColor: theme.colors.secondary,
         },
         headerTintColor: theme.colors.text,
         headerTitleStyle: {
           fontFamily: 'Rubik-Bold',
         },
+        headerTitleAlign: 'center',
       }}>
       <Stack.Screen name="Categories" component={Categories} options={{ headerShown: false }} />
       <Stack.Screen

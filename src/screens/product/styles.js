@@ -5,25 +5,27 @@ export const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     backgroundColor: '#fff',
+    paddingVertical: 20,
   },
   name: {
     fontFamily: 'Rubik-Medium',
     fontSize: 18,
-    paddingVertical: 20,
+    paddingVertical: 10,
   },
   description: {
     fontSize: 14,
     fontFamily: 'Rubik-Regular',
-    paddingVertical: 10,
+    paddingVertical: 5,
   },
   price: {
     fontSize: 18,
     fontFamily: 'Rubik-Bold',
-    paddingVertical: 20,
+    paddingVertical: 10,
   },
-  weight: {
-    fontSize: 12,
+  size: {
+    fontSize: 14,
     fontFamily: 'Rubik-Regular',
+    marginBottom: 30,
   },
   image: {
     width: '100%',

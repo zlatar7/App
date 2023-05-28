@@ -2,7 +2,7 @@ export const CATEGORIES = [
   {
     id: 1,
     name: 'Calzado',
-    color: '#fffbf3',
+    color: '#F0D9D6',
   },
   {
     id: 2,

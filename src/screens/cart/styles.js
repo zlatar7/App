@@ -8,12 +8,8 @@ export const styles = StyleSheet.create({
   },
   listContainer: {
     flex: 1,
-    backgroundColor: theme.colors.white,
   },
   footerContainer: {
-    backgroundColor: theme.colors.white,
-    borderTopColor: theme.colors.primary,
-    borderTopWidth: 4,
     paddingHorizontal: 10,
     paddingVertical: 10,
   },
@@ -39,21 +35,31 @@ export const styles = StyleSheet.create({
     color: theme.text,
     fontFamily: 'Rubik-Medium',
     fontSize: 14,
+    // justifyContent: 'flex-start',
   },
   totalContainer: {
-    flex: 0.5,
+    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
   },
   totalText: {
     color: theme.text,
     fontFamily: 'Rubik-Medium',
     fontSize: 14,
+    justifyContent: 'flex-end',
   },
   totalPrice: {
     color: theme.text,
     fontFamily: 'Rubik-Bold',
     fontSize: 15,
+    justifyContent: 'flex-end',
+  },
+  priceContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  image: {
+    flex: 1,
   },
 });

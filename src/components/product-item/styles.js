@@ -24,6 +24,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
     padding: 10,
+    marginTop: 20,
   },
   name: {
     fontSize: 14,
@@ -36,9 +37,14 @@ export const styles = StyleSheet.create({
     paddingBottom: 5,
     textAlign: 'center',
   },
-  weight: {
+  size: {
     fontSize: 12,
     fontFamily: 'Rubik-Regular',
     textAlign: 'center',
+  },
+  image: {
+    flex: 1,
+    height: 240,
+    padding: 35,
   },
 });

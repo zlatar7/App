@@ -20,8 +20,8 @@ const Product = () => {
       <Text style={styles.name}>{product.name}</Text>
       <Text style={styles.description}>{product.description}</Text>
       <Text style={styles.price}>USD {product.price}</Text>
-      <Text style={styles.size}>size: {product.weight}</Text>
-      <Button title="Add to cart" onPress={onAddToCart} color={theme.colors.text} />
+      <Text style={styles.size}>size: {product.size}</Text>
+      <Button title="Add to cart" onPress={onAddToCart} color={theme.colors.primary} />
     </View>
   );
 };

@@ -5,7 +5,6 @@ import { theme } from '../../constants';
 export const styles = StyleSheet.create({
   view: {
     flex: 1,
-    height: 180,
   },
   container: {
     flex: 1,

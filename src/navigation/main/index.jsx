@@ -10,12 +10,10 @@ const MainNavigator = () => {
     <Stack.Navigator
       initialRouteName="Categories"
       screenOptions={{
-        headerStyle: {
-          backgroundColor: theme.colors.primary,
-        },
         headerTintColor: theme.colors.text,
-        headerTitleStyle: {
+        headerStyle: {
           fontFamily: 'Rubik-Bold',
+          backgroundColor: theme.colors.secondary,
         },
       }}>
       <Stack.Screen name="Categories" component={Categories} options={{ headerShown: false }} />
@@ -24,9 +22,6 @@ const MainNavigator = () => {
         component={Products}
         options={({ route }) => ({
           title: route.params.name,
-          headerStyle: {
-            backgroundColor: route.params.color,
-          },
         })}
       />
       <Stack.Screen

@@ -1,4 +1,5 @@
-import { FIREBASE_REALTIME_DB_URL } from '../../constants';
+import { FIREBASE_REALTIME_DB_URL } from '@env';
+
 import { cartTypes } from '../types';
 
 const { ADD_TO_CART, REMOVE_FROM_CART, CONFIRM_ORDER } = cartTypes;

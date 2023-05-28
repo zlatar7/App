@@ -3,14 +3,14 @@ import { View, Text, TouchableOpacity, ImageBackground } from 'react-native';
 
 import { styles } from './styles';
 
-const image = {
-  uri: 'https://img.freepik.com/free-vector/abstract-blur-blue-pink-gradient-background-design_53876-136695.jpg?w=360&t=st=1684966403~exp=1684967003~hmac=a378c0e4d2ae20904cf2eca94ae96ab181ab4a7211419636333c950c69752c1b',
-};
-
 const CategoryItem = ({ item, onSelected }) => {
+  const image = {
+    uri: 'https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-31879.jpg?w=740&t=st=1685212758~exp=1685213358~hmac=d3aa2c17782c138444f4f00f084368d9aa2a1eed77c624bc14eaac1f68c2297e',
+  };
+
   return (
     <View style={styles.view}>
-      <ImageBackground source={image} resizeMode="stretch" style={styles.image}>
+      <ImageBackground source={image} resizeMode="repeat" style={styles.image}>
         <View style={styles.container}>
           <TouchableOpacity
             style={{ ...styles.containerTouchable, backgroundColor: item.color }}

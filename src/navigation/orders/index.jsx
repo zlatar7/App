@@ -11,8 +11,9 @@ const OrdersNavigator = () => {
       initialRouteName="Orders"
       screenOptions={{
         headerStyle: {
-          backgroundColor: theme.colors.primary,
+          backgroundColor: theme.colors.secondary,
         },
+        headerTitleAlign: 'center',
         headerTintColor: theme.colors.text,
         headerTitleStyle: {
           fontFamily: 'Rubik-Bold',
